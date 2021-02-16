@@ -1,10 +1,11 @@
+import Calculator from "../components/Calculator";
 import style from "../css/Home.module.css";
 
 const Home = () => {
   return (
     <div className={style.home}>
       <div className={style.wrapper}>
-        <h1>The calculator will be here</h1>
+        <Calculator />
       </div>
     </div>
   );
